@@ -33,28 +33,11 @@ fun main(){
                 else -> println("잘못된 숫자에요 다른숫자를 입력해주세요")
             }
 
-          }catch (e:java.lang.NumberFormatException){
-              println("잘못된 값을 입력했어요. 다시 입력해주세요 ")
-          }
+        }catch (e:java.lang.NumberFormatException){
+            println("잘못된 값을 입력했어요. 다시 입력해주세요 ")
+        }
 
     }
 
 
 }
-
-
-
-//fun init(){
-//
-//    // 리스트에 각각의 클래스 담아둠 (모든 메뉴를 담는 리스트)
-//    var list = mutableListOf<String>()
-//
-//    var hamburgerList = list.add(HamBurgerMenu.toString())
-//    var pizzaList = list.add(PizzaMenu.toString())
-//    var chickenList = list.add(ChickenMenu.toString())
-//    var pastaList = list.add(PastaMenu.toString())
-//    var drinkList = list.add(DrinkMenu.toString())
-//
-//    // list = [hamburgerList, pizzaList, chickenList, pastaList, drinkList]
-//
-//}

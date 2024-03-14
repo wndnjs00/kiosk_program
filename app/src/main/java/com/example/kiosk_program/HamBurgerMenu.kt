@@ -36,49 +36,93 @@ class HamBurgerMenu (override var name : String, override var price : Int) : Foo
             when (pizzarMenuNumber) {
                 1 -> {
                     println("${bulgogi.name}를 선택했습니다")
+
+                    println("주문하시겠어요?")
+                    println("1.네  2.아니오")
+                    var orderNumber = readLine()!!.toInt()
+
+                    if(orderNumber == 1){
+                        println("${bulgogi.name} 주문완료 - ${bulgogi.price}원입니다")
+                        println("메뉴 재주문 - [1]햄버거, [2]피자, [3]치킨, [4]파스타, [5]음료, [0]종료")
+                    }else{
+                        println("메뉴판으로 이동")
+                        main()
+                    }
+
                 }
 
                 2 -> {
                     println("${subi.name}를 선택했습니다")
+
+                    println("주문하시겠어요?")
+                    println("1.네  2.아니오")
+                    var orderNumber = readLine()!!.toInt()
+
+                    if(orderNumber == 1){
+                        println("${subi.name} 주문완료 - ${subi.price}원입니다")
+                        println("메뉴 재주문 - [1]햄버거, [2]피자, [3]치킨, [4]파스타, [5]음료, [0]종료")
+                    }else{
+                        println("메뉴판으로 이동")
+                        main()
+                    }
                 }
 
                 3 -> {
                     println("${triplecheese.name}를 선택했습니다")
+
+                    println("주문하시겠어요?")
+                    println("1.네  2.아니오")
+                    var orderNumber = readLine()!!.toInt()
+
+                    if(orderNumber == 1){
+                        println("${triplecheese.name} 주문완료 - ${triplecheese.price}원입니다")
+                        println("메뉴 재주문 - [1]햄버거, [2]피자, [3]치킨, [4]파스타, [5]음료, [0]종료")
+                    }else{
+                        println("메뉴판으로 이동")
+                        main()
+                    }
                 }
 
                 4 -> {
                     println("${bigmag.name}를 선택했습니다")
+
+                    println("주문하시겠어요?")
+                    println("1.네  2.아니오")
+                    var orderNumber = readLine()!!.toInt()
+
+                    if(orderNumber == 1){
+                        println("${bigmag.name} 주문완료 - ${bigmag.price}원입니다")
+                        println("메뉴 재주문 - [1]햄버거, [2]피자, [3]치킨, [4]파스타, [5]음료, [0]종료")
+                    }else{
+                        println("메뉴판으로 이동")
+                        main()
+                    }
                 }
 
                 5 -> {
                     println("${sanghai.name}를 선택했습니다")
+
+                    println("주문하시겠어요?")
+                    println("1.네  2.아니오")
+                    var orderNumber = readLine()!!.toInt()
+
+                    if(orderNumber == 1){
+                        println("${sanghai.name} 주문완료 - ${sanghai.price}원입니다")
+                        println("메뉴 재주문 - [1]햄버거, [2]피자, [3]치킨, [4]파스타, [5]음료, [0]종료")
+                    }else{
+                        println("메뉴판으로 이동")
+                        main()
+                    }
                 }
 
                 -1 -> main()
 
-        }
+            }
 
-    }
+        }
 
 
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
